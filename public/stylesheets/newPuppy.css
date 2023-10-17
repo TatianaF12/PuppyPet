@@ -1,0 +1,125 @@
+.regPup {
+    background-image: url(../images/puppys/simba.jpg);
+    padding-bottom: 90px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.CP {
+    width: 300px;
+}
+
+
+.regPup h1 {
+    font-size: 40px;
+    color: black;
+    font-family: DynaPuff;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-shadow: 3px 3px 5px white;
+}
+
+.reg4 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: dashed;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.702);
+}
+
+@media (max-width: 390px) {
+    .regPup {
+        background-image: url(../images/puppys/simba.jpg);
+        padding-bottom: 90px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .CP {
+        width: 350px;
+    }
+
+    .regPup h1 {
+        font-size: 50px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    .logA {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .reg4 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        text-decoration: dashed;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.702);
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 391px) {
+    .regPup {
+        background-image: url(../images/puppys/simba.jpg);
+        padding-bottom: 90px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .CP {
+        width: 300px;
+    }
+
+
+    .regPup h1 {
+        font-size: 40px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    .reg4 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        text-decoration: dashed;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.702);
+    }
+}

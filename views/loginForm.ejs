@@ -1,0 +1,41 @@
+<%- include('navbar') %>
+
+<div class="loginAll container-fluid">
+    
+    <div class="row text-center">
+        <h1>SIGUE NADANDO...</h1>
+        
+        <div class="col">
+            <br>
+            <br>
+            <div class="form-container">
+                <div class="card login mb-5 ">
+                    <div class="card-body">
+    <form action="/trainer/login" method="post"  enctype="application/x-www-form-urlencoded">
+        
+        <h3 class="error"><%- message %></h3>
+        <br>
+        <input class="em form-control form-control-lg  my-3" type="email" placeholder="Email" aria-label=".form-control-lg example" name="email" required>
+
+        <input class="em form-control form-control-lg  my-3" type="password" placeholder="Introduce una contraseña" aria-label=".form-control-lg example" name="password" required>
+
+            <button type="submit" class=" logA btn btn-primary mb-3">Entrar</button>
+        
+        </form>
+
+            <br><br>
+        </div>
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<%- include('footer') %>

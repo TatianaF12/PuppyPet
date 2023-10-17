@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Open+Sans:wght@300;500;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Tilt+Neon&display=swap');
+
+
+
+.navbar-custom {
+  background-color: black;
+
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-item {
+  font-family: DynaPuff;
+  font-size: 20px;
+
+
+}
+
+.navbar-brand {
+  font-family: DynaPuff;
+  font-size: 40px;
+  color: white;
+}
+
+
+.home {
+  background-image: url(../images/puppys/disney2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+  min-height: 85vh;
+
+}
+
+.home div {
+  margin-bottom: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h1 {
+  font-size: 70px;
+  color: black;
+  font-family: DynaPuff;
+
+}
+
+
+.footer {
+  background-color: black !important;
+  align-self: flex-end;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+
+
+/* PANTALLA MÓVIL */
+@media (max-width: 390px) {
+
+  .navbar-custom {
+    background-color: black;
+
+  }
+
+  .butt {
+    background-color: white !important;
+    border-radius: 6px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 15px;
+  }
+
+  .nav-item {
+    font-family: DynaPuff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+
+
+  }
+
+  .navbar-brand {
+    font-family: DynaPuff;
+    font-size: 25px;
+    color: white;
+  }
+
+
+  .home {
+    background-image: url(../images/puppys/disney2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    min-height: 85vh;
+
+  }
+
+  .home div {
+    margin-bottom: 170px;
+    display: flex;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home h1 {
+    font-size: 50px;
+    color: black;
+    font-family: DynaPuff;
+
+  }
+
+  .footer {
+    background-color: black !important;
+    align-self: flex-end;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/* PANTALLA TABLET */
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    background-color: black;
+
+  }
+
+  .butt {
+    background-color: white !important;
+    border-radius: 6px;
+    background-size: 20px;
+
+
+  }
+
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    font-family: DynaPuff;
+    font-size: 20px;
+
+
+  }
+
+  .navbar-brand {
+    font-family: DynaPuff;
+    font-size: 40px;
+    color: white;
+  }
+
+
+  .home {
+    background-image: url(../images/puppys/disney2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    min-height: 90vh;
+
+  }
+
+  .home div {
+    margin-bottom: 170px;
+    display: flex;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home h1 {
+    font-size: 50px;
+    color: black;
+    font-family: DynaPuff;
+
+  }
+
+  .footer {
+    background-color: black !important;
+    align-self: flex-end;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+  }
+
+}

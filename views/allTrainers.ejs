@@ -1,0 +1,33 @@
+<%- include('navbar') %>
+
+
+<div class="allTrainers container-fluid">
+<div class="row">
+  
+ 
+  <div class="col">
+    <h1 class=" titulo text-center m-5">OHANA</h1>
+  </div>
+  <div class="row">
+    <% result.forEach(trainer => { %>
+      <div class=" col-4 d-flex justify-content-center">
+         <div class="card allT"> 
+          <img src="/images/trainers/<%- trainer.image %>" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="name card-title"><%- trainer.name %></h5>
+            <p class="descr card-text"><%- trainer.description %></p>
+            
+            <a href="/trainer/oneTrainer/<%- trainer.trainer_id %>" class="masinfo btn btn-primary">More info</a>
+          </div>
+        </div>
+      </div>
+
+    <% }) %>
+  </div>
+</div>
+
+
+</div>
+
+
+<%- include('footer') %>

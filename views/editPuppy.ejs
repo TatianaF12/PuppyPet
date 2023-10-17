@@ -1,0 +1,40 @@
+<%- include('navbar') %>
+
+<div class="editPup container-fluid">
+  
+    <div class="row text-center">
+        <h1>Las primeras impresiones son importantísimas</h1>
+        <div class="col CP">
+            <br>
+            <br>
+    <form action="/puppy/editPuppy/<%- result[0].puppy_id %>/<%- result[0].trainer_id %>" method="post"  enctype="application/x-www-form-urlencoded">
+        <input class=" reg form-control form-control-lg my-3" type="text" placeholder="Nombre del animal" aria-label=".form-control-lg example" name="name" required value="<%- result[0].name %>">
+
+        <input class=" reg form-control form-control-lg my-3" type="text" placeholder="Informacion sobre el animal" aria-label=".form-control-lg example" name="information" required value="<%- result[0].information %>">
+
+          
+
+
+          </div>
+          <div class="row">
+          <div class="col save">
+            <button type="submit" class=" logA btn btn-primary mb-3">Guardar datos</button>
+        </div>
+    </div>
+        </form>
+
+            <br><br>
+           
+
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+
+<%- include('footer') %>

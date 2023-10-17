@@ -1,0 +1,57 @@
+<%- include('navbar') %>
+
+<div class=" regAll container-fluid">
+ 
+    <div class="row text-center">
+      <h1>Tú y yo somos un equipo</h1>
+        <div class="col RG">
+            <br>
+            <h3 class="error1"><%- message %></h3>
+            
+    <form action="/trainer/register" method="post"  enctype="multipart/form-data">
+
+        <input class=" reg1 form-control form-control-lg my-3" type="text" placeholder="Nombre" aria-label=".form-control-lg example" name="name" required>
+
+        <input class=" reg1 last_name form-control form-control-lg  my-3" type="text" placeholder="Apellidos" aria-label=".form-control-lg example" name="last_name" required>
+
+        <input class=" reg1 form-control form-control-lg  my-3" type="email" placeholder="Email" aria-label=".form-control-lg example" name="email" required>
+
+        <input class=" reg1 form-control form-control-lg  my-3" type="password" placeholder="Introduce una contraseña" aria-label=".form-control-lg example" name="password" required>
+
+        <div class="mb-3 my-3">
+            <label for="exampleFormControlTextarea1" class=" preg1 form-label">¿Por qué quieres que seamos un equipo? ¡Piensa divertido!</label>
+            <textarea class=" reg form-control" id="exampleFormControlTextarea1" rows="3" name="description" required></textarea>
+          </div>
+
+        <input class=" reg1 form-control form-control-lg  my-3" type="number" placeholder="Teléfono" aria-label=".form-control-lg example" name="phone" required>
+
+        <div class=" foti my-3 mx-3">
+            <label for="formFileLg" class=" preg1 form-label"
+              >Foto de... ¿GATITO?</label
+            >
+            <input
+              class="reg form-control form-control-lg"
+              id="formFileLg"
+              type="file"
+              name="img"
+            />
+          </div>
+            <button type="submit" class="logA1 btn btn-primary mb-3">Guardar datos</button>
+        
+        </form>
+
+            <br><br>
+           
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<%- include('footer') %>

@@ -1,0 +1,110 @@
+.edAll {
+    background-image: url(../images/puppys/wallpapersden.com_peter-pan-1953_2560x1440.jpg);
+    padding-bottom: 90px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edAll h1 {
+    font-size: 40px;
+    color: black;
+    font-family: DynaPuff;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    text-shadow: 5px 6px 7px rgb(255, 255, 255);
+}
+
+.reg {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: dashed;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.702);
+}
+
+.preg {
+    font-size: 25px;
+    color: black;
+    font-family: DynaPuff;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    text-shadow: 3px 3px 5px white;
+}
+
+
+
+@media (max-width: 390px) {
+
+    .edAll {
+        background-image: url(../images/puppys/wallpapersden.com_peter-pan-1953_2560x1440.jpg);
+        padding-bottom: 90px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+        min-height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .edAll h1 {
+        font-size: 40px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 1px;
+        margin-top: 15px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    .reg {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        text-decoration: dashed;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.702);
+    }
+
+    .preg {
+        font-size: 25px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) and (min-width: 391px) {
+    .edAll {
+        background-image: url(../images/puppys/wallpapersden.com_peter-pan-1953_2560x1440.jpg);
+        padding-bottom: 95px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+        min-height: 95vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

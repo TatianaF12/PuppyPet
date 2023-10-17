@@ -1,0 +1,65 @@
+
+<%- include('navbar') %>
+
+<div class="oneTr container-fluid">
+    <div class="row-oT">
+        <div class="col-12 d-flex justify-content-center my-5 ">
+            <div class="oneT card">
+                <img src="/images/trainers/<%- resultTrainer[0].image %>" class="card-img-top-2" alt="...">
+                <div class="card-body">
+                  <h5 class=" nam1 card-title"><%- resultTrainer[0].name %></h5>
+                  <h5 class=" nam1 card-title"><%- resultTrainer[0].last_name %></h5>
+                  <p class="card-text"><%- resultTrainer[0].email %></p>
+                  <p class="card-text"><%- resultTrainer[0].phone %></p>
+                  <p class="p1 card-text"><%- resultTrainer[0].description %></p>
+
+              
+                  <a href="/trainer/editTrainer/<%- resultTrainer[0].trainer_id %>" class="ed btn-warning m-3">Editar</a>
+
+                  <a
+                    href="/trainer/delete/<%- resultTrainer[0].trainer_id %> "
+                    class="el btn-danger m-3"
+                    >Eliminar</a
+                  >
+        
+                
+                </div>
+              </div>
+        </div>
+    </div>
+  
+    <div class="row-oT">
+        <% resultPuppy.forEach(puppy => { %>
+          <div class="oP d-flex justify-content-center my-5">
+    <div class="pup card" style="width:18rem">
+        <img src="/images/puppys/<%- puppy.photo %>" class="card-img-top-1" alt="...">
+        
+        <div class="card-body">
+          <h5 class=" nam card-title"><%- puppy.name %></h5>
+          <p class="card-text"><%- puppy.information %></p>
+
+          <a href="/puppy/editPuppy/<%- puppy.puppy_id %>" class="ed btn-warning m-3">Editar</a>
+
+          <a
+            href="/puppy/delete/<%- puppy.puppy_id %>/<%- puppy.trainer_id %>"
+            class="el btn-danger m-3"
+            >Eliminar</a
+          >
+
+         
+
+
+      
+
+          
+        </div>
+      </div>
+</div>
+        <% }) %>
+</div>
+</div>
+
+
+
+
+<%- include('footer') %>

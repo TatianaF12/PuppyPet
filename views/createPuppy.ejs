@@ -1,0 +1,63 @@
+<%- include('navbar') %>
+
+<div class="regPup container-fluid">
+    <div class="row text-center">
+      <h1>ESTE ES MI HOGAR.</h1>
+        <div class="col CP">
+            <br>
+            <br>
+    <form action="puppy/createPuppy" method="post"  enctype="multipart/form-data">
+        <input class=" reg4 form-control form-control-lg my-3" type="text" placeholder="La pregunta es, ¿quién eres tú?" aria-label=".form-control-lg example" name="name" required>
+
+        <div class=" reg4 mb-3 my-3">
+            <label for="exampleFormControlTextarea1" class=" reg4 form-label">Y recuerda, será nuestro secreto.</label>
+            <textarea class=" reg4 form-control" id="exampleFormControlTextarea1" rows="3" name="information" required></textarea>
+          </div>
+
+          <select
+          class="  text-center form-select"
+          aria-label="Default select example"
+          name="trainer_id"
+        >
+          <option disabled selected>Todos estamos conectados en el gran ciclo de la vida. ¿A quién eliges tú?</option>
+          <% result.forEach(trainer => { %>
+
+          <option value="<%- trainer.trainer_id %>">
+            <%- trainer.name %>
+          </option>
+
+          <% }) %>
+        </select>
+        <div class=" preg my-3 mx-3">
+            <label for="formFileLg" class="form-label"
+              >Gatito, gatito, gatito...</label
+            >
+            <input
+              class=" reg4 form-control form-control-lg"
+              id="formFileLg"
+              type="file"
+              name="img"
+              required
+            />
+
+           
+          </div>
+            <button type="submit" class="logA btn btn-primary mb-3">Guardar datos</button>
+        
+        </form>
+
+            <br><br>
+           
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<%- include('footer') %>

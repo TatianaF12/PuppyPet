@@ -1,0 +1,168 @@
+.regAll {
+    background-image: url(../images/puppys/MONSTSAjpg.jpg);
+    padding-bottom: 90px;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.error1 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.RG {
+    width: 250px;
+}
+
+.regAll h1 {
+    font-size: 40px;
+    color: black;
+    font-family: DynaPuff;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    text-shadow: 3px 3px 5px white;
+}
+
+.reg1 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: dashed;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.702);
+}
+
+.preg1 {
+    font-size: 25px;
+    color: black;
+    font-family: DynaPuff;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    text-shadow: 3px 3px 5px white;
+}
+
+.logA1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    border-color: black;
+}
+
+/* MOVIL */
+
+@media (max-width: 390px) {
+    .regAll {
+        background-image: url(../images/puppys/MONSTSAjpg.jpg);
+        padding-bottom: 80px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .RG {
+        width: 20rem;
+        height: 20px;
+    }
+
+    .regAll h1 {
+        font-size: 25px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 0;
+        margin-top: 5px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    .reg1 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        text-decoration: dashed;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.702)
+    }
+
+    .preg1 {
+        font-size: 25px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 8px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+
+    .logA1 {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        background-color: black;
+        border-color: black;
+    }
+}
+
+
+/* TABLET */
+
+@media (max-width: 768px) and (min-width: 391px) {
+    .regAll {
+        background-image: url(../images/puppys/MONSTSAjpg.jpg);
+        padding-bottom: 90px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        object-fit: cover;
+        min-height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .RG {
+        width: 200px;
+    }
+
+    .regAll h1 {
+        font-size: 35px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        text-shadow: 3px 3px 5px white;
+    }
+
+    .reg1 {
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        text-decoration: dashed;
+        font-family: sans-serif;
+        background-color: rgba(255, 255, 255, 0.702);
+    }
+
+    .preg1 {
+        font-size: 25px;
+        color: black;
+        font-family: DynaPuff;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        text-shadow: 3px 3px 5px white;
+    }
+}
